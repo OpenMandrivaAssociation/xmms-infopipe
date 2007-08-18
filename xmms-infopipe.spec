@@ -3,7 +3,7 @@
 
 Name:           %{name}
 Version:    %{version}
-Release:    %mkrel 3
+Release:    %mkrel 4
 Summary:    XMMS plugin that report XMMS status via a named pipe
 License:    GPL
 Group:      Sound
