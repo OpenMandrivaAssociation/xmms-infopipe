@@ -10,6 +10,7 @@ Group:      Sound
 Source:     http://www.beastwithin.org/users/wwwwolf/code/xmms/%{name}-%{version}.tar.bz2
 URL:        http://www.beastwithin.org/users/wwwwolf/code/xmms/infopipe.html
 BuildRequires: xmms-devel >= 1.0.0
+Buildroot:     %{_tmppath}/%{name}-%{version}-%{release}-root
 
 %description
 XMMS InfoPipe is a plugin that reports XMMS status via named pipe. 
