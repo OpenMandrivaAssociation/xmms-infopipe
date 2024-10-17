@@ -8,7 +8,7 @@ Summary:    XMMS plugin that report XMMS status via a named pipe
 License:    GPL
 Group:      Sound
 Source:     http://www.beastwithin.org/users/wwwwolf/code/xmms/%{name}-%{version}.tar.bz2
-URL:        http://www.beastwithin.org/users/wwwwolf/code/xmms/infopipe.html
+URL:        https://www.beastwithin.org/users/wwwwolf/code/xmms/infopipe.html
 BuildRequires: xmms-devel >= 1.0.0
 Buildroot:     %{_tmppath}/%{name}-%{version}-%{release}-root
 
