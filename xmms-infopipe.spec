@@ -9,6 +9,11 @@ License:    GPL
 Group:      Sound
 Source:     http://www.beastwithin.org/users/wwwwolf/code/xmms/%{name}-%{version}.tar.bz2
 URL:        https://www.beastwithin.org/users/wwwwolf/code/xmms/infopipe.html
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: xmms-devel >= 1.0.0
 Buildroot:     %{_tmppath}/%{name}-%{version}-%{release}-root
 
